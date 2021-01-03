@@ -73,7 +73,7 @@ Em seu terminal na linha de comando:
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/JulioCesar012/SempreIT_Backend
+$ git clone https://github.com/JulioCesar012/SempreIT_Backend.git
 
 # Vá para a pasta backend
 $ cd projetoSempreIT/backend
@@ -96,7 +96,7 @@ $ yarn start
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/JulioCesar012/SempreIT_Frontend
+$ git clone https://github.com/JulioCesar012/SempreIT_Frontend.git
 
 # Vá para a pasta frontend
 $ cd projetoSempreIT/frontend
