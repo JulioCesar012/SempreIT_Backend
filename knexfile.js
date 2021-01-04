@@ -5,9 +5,9 @@ module.exports = {
     client: "mysql",
     connection: {
       host: "localhost",
-      user: "root",
-      password: "",
-      database: "sempreitfullstack",
+      user: "juliofilho",
+      password: "%OR$C4zvM*TOL2ZD",
+      database: "sempre_it_fullstack",
     },
     migrations: {
       directory: "./src/database/migrations",
