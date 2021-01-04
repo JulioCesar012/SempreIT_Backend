@@ -12,11 +12,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use(cors({
-    origin: 'https://frontendsempreit.herokuapp.com/'
+    origin: 'https://frontendsempreit.herokuapp.com'
 }));
 
 app.use((request, response, next) => {
-  response.header('Access-Control-Allow-Origin', 'https://frontendsempreit.herokuapp.com/');
+  response.header('Access-Control-Allow-Origin', 'https://frontendsempreit.herokuapp.com');
   response.header(
     'Access-Control-Allow-Headers',
     'Origin, X-Requested-With, Content-Type, Accept, Authorization'
