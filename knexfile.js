@@ -4,10 +4,11 @@ module.exports = {
   development: {
     client: "mysql",
     connection: {
-      host: "localhost",
-      user: "id15827771_juliofilho",
-      password: "%OR$C4zvM*TOL2ZD",
-      database: "id15827771_sempre_it_fullstack",
+      host: "mysql-17812-0.cloudclusters.net",
+      user: "juliofilho",
+      password: "sempreit2021",
+      database: "sempreitfullstack",
+      port: 17812,
     },
     migrations: {
       directory: "./src/database/migrations",
@@ -31,18 +32,20 @@ module.exports = {
   },
 
   production: {
-    client: "postgresql",
+    client: "mysql",
     connection: {
-      database: "my_db",
-      user: "username",
-      password: "password",
+      host: "mysql-17812-0.cloudclusters.net",
+      user: "juliofilho",
+      password: "sempreit2021",
+      database: "sempreitfullstack",
+      port: 17812,
     },
     pool: {
       min: 2,
       max: 10,
     },
     migrations: {
-      tableName: "knex_migrations",
+      directory: "./src/database/migrations",
     },
   },
 };
