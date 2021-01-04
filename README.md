@@ -119,7 +119,7 @@ Em seu terminal na linha de comando:
 $ git clone https://github.com/JulioCesar012/SempreIT_Backend
 
 # Vá para a pasta backend
-$ cd projetoSempreIT/backend
+$ cd SempreIT_Backend
 
 # Instale as dependências
 $ yarn install
@@ -142,7 +142,7 @@ $ yarn start
 $ git clone https://github.com/JulioCesar012/SempreIT_Frontend
 
 # Vá para a pasta frontend
-$ cd projetoSempreIT/frontend
+$ cd SempreIT_Frontend
 
 # Instale as dependências
 $ yarn install
@@ -177,7 +177,7 @@ Rota: https://frontendsempreit.herokuapp.com/login_admin
   senha: 123456789
 ```
 
-- Observação: No projeto usei localmente xampp na sua última versão com o servidor mysql e apache rodando em minha máquina, para local, é recomendado usar o xampp e configurar seu database no arquivo knexfile.js e no connectionDBMysql. Usei Linux que é meu sistema operacional preferido.
+- Observação: No projeto usei localmente xampp na sua última versão com o servidor mysql e apache rodando em minha máquina, para local, é recomendado usar o xampp e configurar seu database no arquivo knexfile.js e no connectionDBMysql. Usei Linux que é meu sistema operacional preferido. Caso queira importar as tabelas já prontas sem rodar a migração deixei um arquivo sempreitfullstack.sql no diretório /backend/src/database. Só importar no phpmyadmin e sair usando 
 
 ## :rocket: Testar Online
 
